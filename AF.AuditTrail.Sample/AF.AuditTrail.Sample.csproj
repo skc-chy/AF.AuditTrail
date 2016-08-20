@@ -44,7 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Architecture.Foundation.AuditTrail, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AF.AuditTrail.1.0.2\lib\Architecture.Foundation.AuditTrail.dll</HintPath>
+      <HintPath>..\packages\AF.AuditTrail.1.0.3\lib\Architecture.Foundation.AuditTrail.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Architecture.Foundation.DataAccessor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
