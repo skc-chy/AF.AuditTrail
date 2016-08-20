@@ -44,7 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Architecture.Foundation.AuditTrail, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AF.AuditTrail.1.0.1\lib\Architecture.Foundation.AuditTrail.dll</HintPath>
+      <HintPath>..\packages\AF.AuditTrail.1.0.2\lib\Architecture.Foundation.AuditTrail.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Architecture.Foundation.DataAccessor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -102,7 +102,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AuditRecords.aspx" />
     <Content Include="DBScript\DBScript.sql" />
+    <Content Include="Images\Detail.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -123,12 +125,20 @@
     <Content Include="Images\Update.png" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Styles\Modal.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuditRecords.aspx.cs">
+      <DependentUpon>AuditRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuditRecords.aspx.designer.cs">
+      <DependentUpon>AuditRecords.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AuditTrailDemo.aspx.cs">
       <DependentUpon>AuditTrailDemo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

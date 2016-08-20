@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Web.UI.WebControls;
 using System.Web.UI;
 using System.Drawing;
+using Architecture.Foundation.AuditTrail;
 
 namespace AF.AuditTrail.Sample
 {
@@ -14,8 +15,11 @@ namespace AF.AuditTrail.Sample
             {
                 Session["employee"] = null;
                 BindEmployeeGrid();
+               
             }
         }
+
+       
 
         private void BindEmployeeGrid()
         {
@@ -33,6 +37,11 @@ namespace AF.AuditTrail.Sample
             Employee.DataBind();
         }
 
+
+        protected void btnAudit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AuditRecords.aspx");
+        }
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             var employeeEntity = new AuditTrailEntity();

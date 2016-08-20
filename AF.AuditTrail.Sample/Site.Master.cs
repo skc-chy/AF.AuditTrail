@@ -12,7 +12,7 @@ namespace SampleApplication
 
         protected void Lnk_Click(Object sender, EventArgs e)
         {
-           
+            Response.Redirect("AuditTrailDemo.aspx");
         }
     }
 }

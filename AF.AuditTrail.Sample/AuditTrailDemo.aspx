@@ -4,7 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div style="width:100%;border-style:inset;border-color:Blue;border-width:thin;">
+    <div style="width: 100%; border-style: inset; border-color: Blue; border-width: thin;">
         <span style="font-size: small">POI : Please check implementation details of Audit trail
             in class 'AuditTrailEntity.cs' And class 'AuditTrailDemoDAL.cs'</span>
     </div>
@@ -46,7 +46,8 @@
         <tr>
             <td colspan="2" style="text-align: center">
                 <br />
-                  <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+                <asp:Button ID="btnAudit" runat="server" Text="Audit Trail" OnClick="btnAudit_Click" />
             </td>
         </tr>
         <tr>
@@ -115,4 +116,6 @@
             </asp:TemplateField>
         </Columns>
     </asp:GridView>
+  
+    
 </asp:Content>
