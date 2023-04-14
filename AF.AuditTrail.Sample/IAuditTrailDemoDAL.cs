@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace AF.AuditTrail.Sample
+﻿namespace AF.AuditTrail.Sample
 {
 
     public interface IAuditTrailDemoDAL
