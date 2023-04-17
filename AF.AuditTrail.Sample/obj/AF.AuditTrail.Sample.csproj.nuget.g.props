@@ -14,25 +14,33 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Content Include="$(NuGetPackageRoot)af.audittrail\2.0.0\contentFiles\any\net6.0\AFAuditTrail.json" Condition="Exists('$(NuGetPackageRoot)af.audittrail\2.0.0\contentFiles\any\net6.0\AFAuditTrail.json')">
+    <Content Include="$(NuGetPackageRoot)af.audittrail\2.0.1\contentFiles\any\net6.0\AFAuditTrail.json" Condition="Exists('$(NuGetPackageRoot)af.audittrail\2.0.1\contentFiles\any\net6.0\AFAuditTrail.json')">
       <NuGetPackageId>AF.AuditTrail</NuGetPackageId>
-      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetPackageVersion>2.0.1</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Pack>false</Pack>
       <Private>False</Private>
       <Link>AFAuditTrail.json</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)af.audittrail\2.0.0\contentFiles\any\net6.0\AFDataAccessor.json" Condition="Exists('$(NuGetPackageRoot)af.audittrail\2.0.0\contentFiles\any\net6.0\AFDataAccessor.json')">
+    <Content Include="$(NuGetPackageRoot)af.audittrail\2.0.1\contentFiles\any\net6.0\AFDataAccessor.json" Condition="Exists('$(NuGetPackageRoot)af.audittrail\2.0.1\contentFiles\any\net6.0\AFDataAccessor.json')">
       <NuGetPackageId>AF.AuditTrail</NuGetPackageId>
-      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetPackageVersion>2.0.1</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Pack>false</Pack>
       <Private>False</Private>
       <Link>AFDataAccessor.json</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)af.audittrail\2.0.0\contentFiles\any\net6.0\Icon.ico" Condition="Exists('$(NuGetPackageRoot)af.audittrail\2.0.0\contentFiles\any\net6.0\Icon.ico')">
+    <Content Include="$(NuGetPackageRoot)af.audittrail\2.0.1\contentFiles\any\net6.0\DBScript\AuditTrailScript.sql" Condition="Exists('$(NuGetPackageRoot)af.audittrail\2.0.1\contentFiles\any\net6.0\DBScript\AuditTrailScript.sql')">
       <NuGetPackageId>AF.AuditTrail</NuGetPackageId>
-      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetPackageVersion>2.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>DBScript\AuditTrailScript.sql</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)af.audittrail\2.0.1\contentFiles\any\net6.0\Icon.ico" Condition="Exists('$(NuGetPackageRoot)af.audittrail\2.0.1\contentFiles\any\net6.0\Icon.ico')">
+      <NuGetPackageId>AF.AuditTrail</NuGetPackageId>
+      <NuGetPackageVersion>2.0.1</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Pack>false</Pack>
       <Private>False</Private>

@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AF.AuditTrail/2.0.0": {
+      "AF.AuditTrail/2.0.1": {
         "type": "package",
         "dependencies": {
-          "AF.DataAccessor": "2.0.1"
+          "AF.DataAccessor": "2.0.2"
         },
         "compile": {
           "lib/net6.0/Architecture.Core.Foundation.AuditTrail.dll": {}
@@ -24,6 +24,11 @@
             "codeLanguage": "any",
             "copyToOutput": false
           },
+          "contentFiles/any/net6.0/DBScript/AuditTrailScript.sql": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
           "contentFiles/any/net6.0/Icon.ico": {
             "buildAction": "Content",
             "codeLanguage": "any",
@@ -31,7 +36,7 @@
           }
         }
       },
-      "AF.DataAccessor/2.0.1": {
+      "AF.DataAccessor/2.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "7.0.0",
@@ -730,36 +735,38 @@
     }
   },
   "libraries": {
-    "AF.AuditTrail/2.0.0": {
-      "sha512": "X31R568nrs3PqCBVclzMusHeULXeNBVVuyIsfc30LcVnK5aVSq0dU6Z0Yu0ci/i1A0vwrUw5RfOyXEztPhvUmQ==",
+    "AF.AuditTrail/2.0.1": {
+      "sha512": "uugxjcG8wHJTD0W9Swzl4ybaC/7izjcKzA8387NlGjvGn8o36eUOixhYMAK20XHT4zrx1i/7PyODgcDYRZHG8Q==",
       "type": "package",
-      "path": "af.audittrail/2.0.0",
+      "path": "af.audittrail/2.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "128.png",
         "README.md",
-        "af.audittrail.2.0.0.nupkg.sha512",
+        "af.audittrail.2.0.1.nupkg.sha512",
         "af.audittrail.nuspec",
         "content/AFAuditTrail.json",
         "content/AFDataAccessor.json",
+        "content/DBScript/AuditTrailScript.sql",
         "content/Icon.ico",
         "contentFiles/any/net6.0/AFAuditTrail.json",
         "contentFiles/any/net6.0/AFDataAccessor.json",
+        "contentFiles/any/net6.0/DBScript/AuditTrailScript.sql",
         "contentFiles/any/net6.0/Icon.ico",
         "lib/net6.0/Architecture.Core.Foundation.AuditTrail.dll"
       ]
     },
-    "AF.DataAccessor/2.0.1": {
-      "sha512": "8HYZcivl+RX9/52voqsDiamAa7vj42wVdN4zu0Rx65D+GbiY6Yw8IvhUjN0XG+DNbt+GMm76PxXH2JXJdoGciA==",
+    "AF.DataAccessor/2.0.2": {
+      "sha512": "Q9oUbI9XYLG1C+eUTIjpw2wHe/G31wt3zFLKodLJyGRvRXT8sdH+SNvnddNrHgnoDtxqfbmrL14Aj+SG6JX4ug==",
       "type": "package",
-      "path": "af.dataaccessor/2.0.1",
+      "path": "af.dataaccessor/2.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "128.png",
         "README.md",
-        "af.dataaccessor.2.0.1.nupkg.sha512",
+        "af.dataaccessor.2.0.2.nupkg.sha512",
         "af.dataaccessor.nuspec",
         "content/AFDataAccessor.json",
         "content/Icons/Icon.ico",
@@ -2482,7 +2489,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AF.AuditTrail >= 2.0.0"
+      "AF.AuditTrail >= 2.0.1"
     ]
   },
   "packageFolders": {
@@ -2532,7 +2539,7 @@
         "dependencies": {
           "AF.AuditTrail": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[2.0.1, )"
           }
         },
         "imports": [

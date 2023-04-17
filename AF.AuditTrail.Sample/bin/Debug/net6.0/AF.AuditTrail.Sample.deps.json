@@ -8,15 +8,15 @@
     ".NETCoreApp,Version=v6.0": {
       "AF.AuditTrail.Sample/1.0.0": {
         "dependencies": {
-          "AF.AuditTrail": "2.0.0"
+          "AF.AuditTrail": "2.0.1"
         },
         "runtime": {
           "AF.AuditTrail.Sample.dll": {}
         }
       },
-      "AF.AuditTrail/2.0.0": {
+      "AF.AuditTrail/2.0.1": {
         "dependencies": {
-          "AF.DataAccessor": "2.0.1"
+          "AF.DataAccessor": "2.0.2"
         },
         "runtime": {
           "lib/net6.0/Architecture.Core.Foundation.AuditTrail.dll": {
@@ -25,7 +25,7 @@
           }
         }
       },
-      "AF.DataAccessor/2.0.1": {
+      "AF.DataAccessor/2.0.2": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
@@ -437,19 +437,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AF.AuditTrail/2.0.0": {
+    "AF.AuditTrail/2.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-X31R568nrs3PqCBVclzMusHeULXeNBVVuyIsfc30LcVnK5aVSq0dU6Z0Yu0ci/i1A0vwrUw5RfOyXEztPhvUmQ==",
-      "path": "af.audittrail/2.0.0",
-      "hashPath": "af.audittrail.2.0.0.nupkg.sha512"
+      "sha512": "sha512-uugxjcG8wHJTD0W9Swzl4ybaC/7izjcKzA8387NlGjvGn8o36eUOixhYMAK20XHT4zrx1i/7PyODgcDYRZHG8Q==",
+      "path": "af.audittrail/2.0.1",
+      "hashPath": "af.audittrail.2.0.1.nupkg.sha512"
     },
-    "AF.DataAccessor/2.0.1": {
+    "AF.DataAccessor/2.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8HYZcivl+RX9/52voqsDiamAa7vj42wVdN4zu0Rx65D+GbiY6Yw8IvhUjN0XG+DNbt+GMm76PxXH2JXJdoGciA==",
-      "path": "af.dataaccessor/2.0.1",
-      "hashPath": "af.dataaccessor.2.0.1.nupkg.sha512"
+      "sha512": "sha512-Q9oUbI9XYLG1C+eUTIjpw2wHe/G31wt3zFLKodLJyGRvRXT8sdH+SNvnddNrHgnoDtxqfbmrL14Aj+SG6JX4ug==",
+      "path": "af.dataaccessor/2.0.2",
+      "hashPath": "af.dataaccessor.2.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
       "type": "package",

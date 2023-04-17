@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AF.AuditTrail" Version="2.0.0" />
+    <PackageReference Include="AF.AuditTrail" Version="2.0.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,6 +30,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="C:\Users\SukantaChoudhurySIDG\.nuget\packages\af.audittrail\2.0.0\contentFiles\any\net6.0\AFDataAccessor.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\SukantaChoudhurySIDG\.nuget\packages\af.audittrail\2.0.1\contentFiles\any\net6.0\AFAuditTrail.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\SukantaChoudhurySIDG\.nuget\packages\af.audittrail\2.0.1\contentFiles\any\net6.0\AFDataAccessor.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

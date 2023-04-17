@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/os3wUjaEGWub63teq/ttb8LV/n8RVRvgky+3IUv0nzQnIpON3lELg7CXhogxGN1I1rLvUKgY0Sh8d4fu9MXMQ==",
+  "dgSpecHash": "yBPtQwtBv+XAqWcz6ZsVPh0SLd5c/0Jw4cEbNKY2V0QzGkv1AddNGWNnu3+w+EeSc9xgeuIR2er7+Jvzw2lmYg==",
   "success": true,
   "projectFilePath": "C:\\Work\\DotNetCoreFramework\\SampleApplication\\AF.AuditTrail.Sample\\AF.AuditTrail.Sample\\AF.AuditTrail.Sample.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.audittrail\\2.0.0\\af.audittrail.2.0.0.nupkg.sha512",
-    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.dataaccessor\\2.0.1\\af.dataaccessor.2.0.1.nupkg.sha512",
+    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.audittrail\\2.0.1\\af.audittrail.2.0.1.nupkg.sha512",
+    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.dataaccessor\\2.0.2\\af.dataaccessor.2.0.2.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
